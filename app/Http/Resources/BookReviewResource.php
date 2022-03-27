@@ -16,6 +16,10 @@ class BookReviewResource extends JsonResource
     {
         return [
             // @TODO implement
+            'review' => $this->review,
+            'comment' => $this->comment,
+            'user_id' => $this->user,
+            'book_id' => $this->book
         ];
     }
 }
